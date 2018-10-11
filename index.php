@@ -1,0 +1,18 @@
+<?php
+$hello = 'Hello, dear teacher!';
+$title = 'HomeWork';
+$day = date('Y');
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title><?php echo $title ?></title>
+</head>
+<body>
+<h1><?php echo $hello ?></h1>
+<h2><?= $day ?></h2>
+</body>
