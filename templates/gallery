@@ -1,0 +1,6 @@
+<h1>Gallery</h1>
+<main class="main" style="display: flex">
+    {% for image in images %}
+      <a class="photo" href="photo.twig"><img src={{ image.pathSmall }} alt={{ image.alt }}></a>
+    {% endfor %}
+</main>
